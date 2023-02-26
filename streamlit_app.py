@@ -43,15 +43,7 @@ try:
     
 except URLError as e: 
   streamlit.error()
-    
-# streamlit.write('The user entered ', fruit_choice)
 
-# import requests
-
-# normalize json version
-# display as table
-
-my_data_rows = my_cur.fetchall()
 streamlit.header("The fruit load list contains:")
 # Snowflake-related functions
 def get_fruit_load_list():
